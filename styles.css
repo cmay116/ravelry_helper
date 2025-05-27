@@ -1,0 +1,90 @@
+#ravelry-converter-tab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 280px;
+  background: #f0f8ff;
+  border: 1px solid #888;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 8px;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+#ravelry-converter-header {
+  background: #007acc;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#ravelry-converter-content {
+  padding: 10px;
+}
+
+#ravelry-tab-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+#ravelry-tab-buttons button {
+  flex: 1;
+  margin: 0 4px;
+  padding: 6px;
+  background: white;
+  border: 1px solid #007acc;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab-section {
+  padding: 6px 0;
+}
+
+.converter-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+  background: #fff;
+}
+
+th {
+  background: #e6f2ff;
+}
