@@ -3,7 +3,6 @@
   "name": "Ravelry Helper",
   "version": "1.3",
   "description": "Collapsible window with helpful tools for Ravelry.com.",
-  "permissions": ["activeTab", "scripting"],
   "content_scripts": [{
     "matches": ["*://www.ravelry.com/*"],
     "js": ["content.js"],
